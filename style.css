@@ -1,0 +1,51 @@
+body{ 
+    background: black; 
+    } 
+    #mainbody { 
+    width: 250px; 
+    height: 390px; 
+    position: absolute; 
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-50%, -50%); 
+    background: linear-gradient(#FFEDF9, #C8AEE2); 
+    border: solid 6px; 
+    border-color: #A999CF; 
+    border-radius: 12px; 
+    } 
+    #screen{ 
+    border-width: 5px; 
+    margin-left: 10px; 
+    width: 85%; 
+    height: 41px; 
+    margin-top: 13px; 
+    border-color: #A999CF; 
+    border-radius: 8px; 
+    font-size: xx-large; 
+    font-family: sans-serif; 
+    pointer-events: none; 
+    } 
+    .but { 
+    width: 248px; 
+    height: 220px; 
+    position: fixed; 
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-50%, -50%); 
+    } 
+    button{ 
+    width: 40px; 
+    height: 45px; 
+    margin-top: 10px; 
+    background: linear-gradient(#FFEDF9, #C8AEE2); 
+    margin-left: 16px; 
+    border: solid #A999CF; 
+    border-radius: 34px; 
+    font-size: 24px; 
+    font-weight: 600; 
+    font-family: sans-serif; 
+    } 
+    button:hover{ 
+    cursor: pointer; 
+    background: linear-gradient(#FFEDF9, #FFEDF9); 
+    } 
